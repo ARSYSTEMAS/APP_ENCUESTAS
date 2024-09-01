@@ -219,7 +219,7 @@ const ENTORNO = ref(process.env.NODE_ENV)
                         <button class="btn btn-dark btn-lg btn-block" type="submit">Sign In</button>
                       </div>
                     </form>
-                    <p class="fw-light fw-bold text-sm text-center">Version:1.3.8</p>
+                    <p class="fw-light fw-bold text-sm text-center">Version:1.0.0</p>
                     <!-- </div> -->
                   </div>
                   

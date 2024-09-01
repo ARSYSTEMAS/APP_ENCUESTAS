@@ -4,12 +4,6 @@ const webpack = require('webpack');
 const fs = require('fs');
 
 module.exports = defineConfig({
-  devServer: {
-    https: {
-      key: fs.readFileSync('./ssl/encuestas.tiendasdaka.com.key'),
-      cert: fs.readFileSync('./ssl/encuestas.tiendasdaka.com.crt'),
-    }
-  },
   configureWebpack: {
     optimization: {
       minimize: true,
